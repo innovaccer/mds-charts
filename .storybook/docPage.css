@@ -1,0 +1,63 @@
+html, body {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.DocPage-editorTabs .TabsWrapper-header {
+  margin-left: var(--spacing-l)
+}
+
+.DocPage-codeBlock {
+  position: relative;
+  font-family: monospace !important;
+  font-size: 13px !important;
+  background: #f8f8f8 !important;
+  margin-top: var(--spacing) !important;
+  margin-bottom: var(--spacing) !important;
+  white-space: break-spaces !important;
+}
+
+.Utilities-example {
+  padding:var(--spacing-xl);
+  margin-right: 0;
+  margin-left: 0;
+  border-width:var(--spacing-s) ;
+  font-size:var(--font-size-m);
+  background-color: var(--inverse-lightest);
+}
+.Utilities-text--color{
+  color: var(--secondary);
+}
+.width-color{
+  background-color: var(--inverse-lightest);
+}
+.height-color{
+  background-color: var(--inverse-lightest);
+}
+.height{
+  height: 100px;
+  background-color:  var(--secondary);;
+}
+.Utilities-overflow{
+  background-color:var(--inverse-lightest);
+  width: 200px;
+  height: 100px;
+  border: var(--spacing-xs) dotted black;
+}
+
+.sbdocs-preview {
+  border-radius: 0 !important;
+  border: 0 !important;
+  border-bottom: var(--border);
+}
+
+.sbdocs-title {
+  font-weight: var(--font-weight-medium) !important;
+  font-size: var(--font-size-xl) !important;
+  line-height: var(--font-height-xl) !important;
+  color: var(--text) !important;
+}
+
+.sbdocs.sbdocs-wrapper {
+  padding: 0 !important;
+}

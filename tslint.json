@@ -1,0 +1,28 @@
+{
+  "extends": ["tslint:latest", "tslint-config-prettier", "tslint-config-airbnb", "tslint-react"],
+  "rules": {
+    "max-line-length": {
+      "options": [120]
+  },
+    "object-literal-sort-keys": false,
+    "no-submodule-imports": false,
+    "member-ordering": false,
+    "ordered-imports": false,
+    "no-this-assignment": false,
+    "no-implicit-dependencies": false,
+    "no-increment-decrement": false,
+    "no-namespace": false,
+    "trailing-comma": false,
+    "variable-name": false,
+    "import-name": false,
+    "align": false,
+    "ter-arrow-parens": [true, "as-needed", { "requireForBlockBody": false }],
+    "jsx-no-multiline-js": false,
+    "jsx-no-lambda": false,
+    "jsx-no-bind": false,
+    "no-empty": [true, "allow-empty-catch", "allow-empty-functions"],
+    "no-duplicate-imports": [true, {"allow-namespace-imports": true}],
+    "no-bitwise": false,
+    "prefer-object-spread": false
+  }
+}
